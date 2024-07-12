@@ -39,3 +39,18 @@ console.log(tinderUser);
 
 console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
+
+//  ********* De-Structuring **********
+
+const course = {
+    coursename : "Js in Hindi",
+    price: "1000",
+    courseInstructor: "Vipin"
+}
+
+// course.courseInstructor
+const {courseInstructor: instructor} = course
+
+// console.log(course.courseInstructor)
+console.log(instructor)
+
